@@ -64,7 +64,7 @@ employeeList.addEventListener('click', (event) => {
 
             // Update employee count
             employeeCount.textContent = `You have ${employees.length} Employees.`;
-        }
+         }
     }
 });
 
