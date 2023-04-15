@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Employee Form</h1>
+    <form id="employee-form">
+        <div class="column">
+            <label for="name">Enter Name</label><br>
+
+            <input type="text" id="name" required>
+
+        </div>
+        <div class="column">
+        <label for="profession">Enter Profession</label><br>
+        <input type="text" id="profession" required>
+        </div>
+        <div class="column">
+        <label for="age">Enter Age</label><br>
+        <input type="number" id="age" required><br>
+    </div>
+        <button type="submit" id="add-employee">Add User</button>
+    </form>
+
+    <div id="employees">
+        <h2>Added Employees:</h2>
+        <p id="employee-count"></p>
+        <ul id="employee-list"></ul>
+    </div>
+
+
+
+
+
+
+    <link rel="stylesheet" href="script.js">
+</body>
+
+</html>
